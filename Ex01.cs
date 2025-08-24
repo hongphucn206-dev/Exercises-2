@@ -10,12 +10,12 @@ namespace EX01
     {
         static void Main()
         {
-            CelsiusConvert();   // Bai1
-            Sphere();           // Bai2
-            Operators();        // Bai3
+            Bai1();   
+            Bai2();          
+            Bai3();       
         }
 
-        static void CelsiusConvert()
+        static void Bai1()
         {
             Console.Write("Nhap nhiet do (°C): ");
             double c = double.Parse(Console.ReadLine());
@@ -25,7 +25,7 @@ namespace EX01
             Console.WriteLine("fahrenheit= " + fahrenheit);
         }
 
-        static void Sphere()
+        static void Bai2()
         {
             Console.Write("Nhap ban kinh: ");
             double r = double.Parse(Console.ReadLine());
@@ -35,7 +35,7 @@ namespace EX01
             Console.WriteLine("Volume: " + volume);
         }
 
-        static void Operators()
+        static void Bai3()
         {
             Console.Write("Nhap so thu nhat: ");
             int a = int.Parse(Console.ReadLine());
@@ -49,3 +49,4 @@ namespace EX01
         }
     }
 }
+
