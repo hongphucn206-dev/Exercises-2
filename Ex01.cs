@@ -8,7 +8,7 @@ namespace EX01
 {
     internal class Ex01
     {
-        static void Main()
+        static void Main(string[] args)
         {
             Bai1();   
             Bai2();          
@@ -49,4 +49,5 @@ namespace EX01
         }
     }
 }
+
 
